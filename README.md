@@ -33,7 +33,7 @@ $ ./ocr testImage/info.png
 
 ## More
 There are some articles maybe you want to read:
-[SwiftUI和Swift命令行中如何使用Vision来识别获取图片（image）中的文字（OCR），以及一系列注意事项](https://blog.csdn.net/qq_33919450/article/details/132819164): This is a blog to discribe the details of this project.
+[SwiftUI和Swift命令行中如何使用Vision来识别获取图片（image）中的文字（OCR），以及一系列注意事项](https://blog.csdn.net/qq_33919450/article/details/132819164): This is a blog to discribe the details of this project and more tests about Vision OCR.
 
 [Codes for the Representation of Names of Languages](https://www.loc.gov/standards/iso639-2/php/English_list.php): This is table of ISO Language Code, maybe you need to know for change codes.
 
