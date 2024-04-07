@@ -2,7 +2,9 @@
 OCR using Vision in UI and Command for Apple platforms.
 
 ## Description
-This is an OCR for image for all Apple platforms, like iPad, iPhone, Mac and Apple TV. **Not only in app, but also in commandline**. Because it uses Vision, so it just support iOS 11, iPad OS 11, macOS 10.13, tvOS 11 and newer versions.
+This is an OCR for image for all Apple platforms, like iPad, iPhone, Mac and Apple TV. **Not only in GUI app, but also in CLI (Command line)**. 
+
+Because it uses Vision, so it just support iOS 11, iPad OS 11, macOS 10.13, tvOS 11 and newer versions. And the quality of text generated is also depend on system version.
 
 ## Usage
 If you want to see OCR in App, please open `OCR-SwiftUI` and click `OCR-SwiftUI.xcodeproj`. Maybe you need modify the `Team` in `Signing & Capabilities` to fix the error of building. 
@@ -33,6 +35,7 @@ $ ./ocr testImage/info.png
 
 ## More
 There are some articles maybe you want to read:
+
 [SwiftUI和Swift命令行中如何使用Vision来识别获取图片（image）中的文字（OCR），以及一系列注意事项](https://blog.csdn.net/qq_33919450/article/details/132819164): This is a blog to discribe the details of this project and more tests about Vision OCR.
 
 [Codes for the Representation of Names of Languages](https://www.loc.gov/standards/iso639-2/php/English_list.php): This is table of ISO Language Code, maybe you need to know for change codes.
